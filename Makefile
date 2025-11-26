@@ -2,7 +2,7 @@ SHELL = /bin/bash
 
 CONTAINER_RUNTIME := $(shell command -v podman 2>/dev/null || command -v docker 2>/dev/null)
 IMAGE_NAME := starvz-shell
-CONTAINER_NAME := starvz-shell
+CONTAINER_NAME := starvz-shell-container
 
 .DEFAULT_GOAL := help
 .PHONY: help

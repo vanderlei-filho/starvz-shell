@@ -135,7 +135,7 @@ RUN R -e "options(Ncpus=parallel::detectCores()); \
 
 RUN R -e "install.packages(c('tidyverse', 'ggplot2', 'dplyr', 'readr', \
     'purrr', 'jsonlite', 'yaml', 'data.table', 'gridExtra', 'cowplot', \
-    'patchwork', 'viridis', 'scales', 'zoo', 'Rcpp', 'car'), \
+    'patchwork', 'viridis', 'scales', 'zoo', 'Rcpp', 'car', 'ggh4x'), \
     repos='https://cloud.r-project.org/', dependencies=TRUE)"
 
 # Install StarVZ
